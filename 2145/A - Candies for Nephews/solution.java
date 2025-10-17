@@ -1,1 +1,2 @@
-import java.util.*;public class Main{    public static void main(String[] args){        Scanner sc = new Scanner(System.in);        int s = sc.nextInt();        while(s-->0) {            int n = sc.nextInt();            int rem = n%3;            if(rem>0){                System.out.println(3-rem);            }else System.out.println(0);        }    }}
+import java.util.*;public class Main{    public static void main(String[] args){        Scanner sc = new Scanner(System.in);        int s = sc.nextInt();        while(s-->0) {            int n = sc.nextInt();            int rem = n%3;            if(rem>0){                System.out.println(3-rem);            }else System.out.println(0);        }    }}  
+
